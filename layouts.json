@@ -1,0 +1,196 @@
+{
+    "window": [
+        {
+            "type": "Label",
+            "args": {
+                "name": "lbl_main_title",
+                "text": "You can now press the toggle key to activate auto runner",
+                "anchor": "center"
+            },
+            "grid": {
+                "column": 0,
+                "row": 0,
+                "pady": [
+                    0,
+                    20
+                ],
+                "columnspan": 4
+            }
+        },
+        {
+            "type": "Label",
+            "args": {
+                "name": "lbl_status_title",
+                "text": "Status:"
+            },
+            "grid": {
+                "column": 0,
+                "row": 1,
+                "sticky": "W",
+                "padx": [
+                    0,
+                    10
+                ],
+                "pady": [
+                    0,
+                    5
+                ]
+            }
+        },
+        {
+            "type": "Label",
+            "args": {
+                "name": "lbl_status",
+                "background": "lightgrey",
+                "width": 20,
+                "anchor": "center"
+            },
+            "grid": {
+                "column": 1,
+                "row": 1,
+                "sticky": "E"
+            }
+        },
+        {
+            "type": "Button",
+            "args": {
+                "name": "btn_enable"
+            },
+            "grid": {
+                "column": 2,
+                "row": 1,
+                "sticky": "E",
+                "padx": [
+                    10,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Label",
+            "args": {
+                "name": "lbl_toggle_key_title",
+                "text": "Toggle key is:"
+            },
+            "grid": {
+                "column": 0,
+                "row": 2,
+                "sticky": "W",
+                "padx": [
+                    0,
+                    10
+                ]
+            }
+        },
+        {
+            "type": "Label",
+            "args": {
+                "name": "lbl_toggle_key",
+                "background": "lightgrey",
+                "width": 20,
+                "anchor": "center"
+            },
+            "grid": {
+                "column": 1,
+                "row": 2,
+                "sticky": "E"
+            }
+        },
+        {
+            "type": "Button",
+            "args": {
+                "name": "btn_rebind_toggle_key"
+            },
+            "grid": {
+                "column": 2,
+                "row": 2,
+                "sticky": "E",
+                "padx": [
+                    10,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Checkbutton",
+            "args": {
+                "name": "btn_overlay",
+                "text": "Overlay (works only in windowed games)"
+            },
+            "grid": {
+                "column": 0,
+                "row": 3,
+                "pady": 10,
+                "sticky": "w",
+                "columnspan": 3
+            }
+        },
+        {
+            "type": "Button",
+            "args": {
+                "name": "btn_quit",
+                "text": "Quit"
+            },
+            "grid": {
+                "column": 0,
+                "row": 4,
+                "sticky": "W"
+            }
+        }
+    ],
+    "overlay": [
+        {
+            "type": "Label",
+            "args": {
+                "name": "lbl_status",
+                "background": "lightgrey",
+                "width": 10,
+                "anchor": "center"
+            },
+            "grid": {
+                "column": 1,
+                "row": 0,
+                "sticky": "W",
+                "padx": [0, 10]
+            }
+        },
+        {
+            "type": "Label",
+            "args": {
+                "name": "lbl_status_title",
+                "text": "State:"
+            },
+            "grid": {
+                "column": 0,
+                "row": 0,
+                "sticky": "W"
+            }
+        },
+        {
+            "type": "Label",
+            "args": {
+                "name": "lbl_toggle_key_title",
+                "text": "Toggle:"
+            },
+            "grid": {
+                "column": 2,
+                "row": 0,
+                "sticky": "W"
+            }
+        },
+        {
+            "type": "Label",
+            "args": {
+                "name": "lbl_toggle_key",
+                "background": "lightgrey",
+                "anchor": "center",
+                "width": 10
+            },
+            "grid": {
+                "column": 3,
+                "row": 0,
+                "sticky": "W"
+            }
+        }
+    ]
+}
